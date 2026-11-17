@@ -89,8 +89,7 @@ auto inputHora()
 int listaValores(const vector<Veiculo>& lista) {
     cout << "\nTipo de veículo:" << endl;
     for (size_t i = 0; i < lista.size(); i++) {
-        cout << i + 1 << " - " << lista[i].nome 
-             << " = R$" << fixed << setprecision(2) << lista[i].valorHora << "/hora" << endl;
+        cout << i + 1 << " - " << lista[i].nome << " = R$" << fixed << setprecision(2) << lista[i].valorHora << "/hora" << endl;
     }
 
     int opcao;
